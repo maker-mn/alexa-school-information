@@ -4,8 +4,8 @@
         "intent": "WhatsForLunchIntent",
         "slots": [
             {
-                "name": "Day",
-                "type": "DAY"
+                "name": "Date",
+                "type": "AMAZON.DATE"
             }
         ]
     }
