@@ -1,0 +1,6 @@
+WhatsForLunchIntent what's for lunch
+WhatsForLunchIntent what is for lunch
+WhatsForLunchIntent what's for lunch {Day}
+WhatsForLunchIntent what's for lunch on {Day}
+WhatsForLunchIntent what is for lunch {Day}
+WhatsForLunchIntent what is for lunch on {Day}

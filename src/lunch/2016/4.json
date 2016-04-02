@@ -1,0 +1,111 @@
+{
+    "title": "April Lunch Menu",
+    "lunchCost": "PreK-5 = $2.65, Grades 6-8 = $2.75, Extra entree = $0.75, Milk is $0.40, Adult = $3.50",
+    "lunches": [
+      {
+        "date": "2016-04-01",
+        "lunch": "Pulled pork sandwich, Tater Tots, Coleslaw, and Fruit",
+		"comment": "Mmmm, Pulled Pork and tots."
+      },
+      {
+        "date": "2016-04-04",
+        "lunch": "Chicken Nuggets, Pretzels, Veggie & Fruit",
+		"comment": "Yum, Nick Loves those."
+      },
+      {
+        "date": "2016-04-05",
+        "lunch": "Pancakes, Sausage Links, Orange Juice, Veggies & Dip",
+		"comment": "Nice!  Breakfast for lunch, my favorite"
+      },
+      {
+        "date": "2016-04-06",
+        "lunch": "Pasta with Meat Sauce, Breadstick, Salad, and Fruit",
+		"comment": "Just like Olive Garden"
+      },
+      {
+        "date": "2016-04-07",
+        "lunch": "Corn Dog, Baked Beans, Veggies & Dip, and Fruit",
+		"comment": "I love me some corn dogs."
+      },
+      {
+        "date": "2016-04-08",
+        "lunch": "Cheese Pizza, Animal Crackers, Fruit, Veggies & Dip",
+		"comment": "Animal Crackers?  What, am I...2 years old?"
+      },
+      {
+        "date": "2016-04-11",
+        "lunch": "Hamburger on a Bun, French Fries, Veggie & Fruit",
+		"comment": "What else would a hamburger be on anyway."
+      },
+      {
+        "date": "2016-04-12",
+        "lunch": "Walking Dead Tacos, Lettuce & Cheese Cup, Spanish Rice, and Fruit",
+		"comment": "Yes, that's right, I said Walking Dead Tacos."
+      },
+      {
+        "date": "2016-04-13",
+        "lunch": "Creamy Chicken, Wild Rice Soup, Turkey Sandwich, and Fruit",
+		"comment": "Make sure to tell your mom and dad, Happy Anniversary."
+      },
+      {
+        "date": "2016-04-14",
+        "lunch": "Sweet & Sour Chicken with Rice, Veggies, and Fruit",
+		"comment": "That actually sounds kind of good."
+      },
+      {
+        "date": "2016-04-15",
+        "lunch": "Grilled Cheese Sandwich, Tomato Soup, Crackers, and Fruit",
+		"comment": "Meh."
+      },
+      {
+        "date": "2016-04-18",
+        "lunch": "You ain't got no school that day, you'll have to make your own lunch",
+		"comment": "."
+      },
+      {
+        "date": "2016-04-19",
+        "lunch": "Hot dog on a bun, French Fries, Veggie & Fruit",
+		"comment": "Go Twins!"
+      },
+      {
+        "date": "2016-04-20",
+        "lunch": "Pulled Pork Sandwich, Tater Tots, Coleslaw, and Fruit",
+		"comment": "Get your own tots, gosh."
+      },
+      {
+        "date": "2016-04-21",
+        "lunch": "BBQ meatballs, Mashed Potatoes, Dinner Roll, Veggie & Fruit",
+		"comment": "I would take a cold lunch personally."
+      },
+      {
+        "date": "2016-04-22",
+        "lunch": "Cheese Tortellini with Sauce, Breadstick, Salad Fruit",
+		"comment": "Just one breadstick?"
+      },
+      {
+        "date": "2016-04-25",
+        "lunch": "Sloppy Joes, French Fries, Veggie & Fruit",
+		"comment": "That is the lunch of champions."
+      },
+      {
+        "date": "2016-04-26",
+        "lunch": "Chicken Chow Mein, Rice, Oranges, and a Fortune Cookie",
+		"comment": "You had me at fortune cookie."
+      },
+      {
+        "date": "2016-04-27",
+        "lunch": "Chicken Noodle Soup & Crackers, Turkey Sandwich, and Fruit",
+		"comment": "Chicken and Turkey in one meal?  Awesome!"
+      },
+      {
+        "date": "2016-04-28",
+        "lunch": "Chicken Parmesan, Sandwich, Chex Mix, Veggie & Fruit",
+		"comment": "Chicken Parm it tastes so good."
+      },
+      {
+        "date": "2016-04-29",
+        "lunch": "Bagels with Cream Cheese and Jelly, Cheese Stick, Veggies & Dip, Orange Juice",
+		"comment": "I would definitely take this lunch."
+      }
+    ]
+}
