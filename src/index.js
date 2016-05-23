@@ -39,23 +39,18 @@ EchoNativity.prototype.intentHandlers = {
 		// make request
 		httpreq(options, function (error, responseJson) {
             if (!error) {
-                responseJson = JSON.parse(responseJson);
-
-				// parse the requested lunch date
-				var d = getDateFromIntent(intent);
-				//d.setTime(today.getTime() + d.getTimezoneOffset()-300);
-				console.log("WhatsForLunchIntent: lookup date =" + d + ", today=" + today);
-					
-				// set default response mesage	
-				var randResponse = Math.floor(Math.random() * NOLUNCH_RESPONSES.length);
-				var responseText = NOLUNCH_RESPONSES[randResponse].replace("$day", intent.slots.Date.value);
-                
 				try {
-				/*	if (d < today && day != 'yesterday') {
-						d = Date.parse("next" + day);
-						console.log("WhatsForLunchIntent: shifting day to " + d);
-					}*/
+					responseJson = JSON.parse(responseJson);
+
+					// parse the requested lunch date
+					var d = getDateFromIntent(intent);
+					console.log("WhatsForLunchIntent: lookup date =" + d + ", today=" + today);
+						
+					// set default response mesage	
+					var randResponse = Math.floor(Math.random() * NOLUNCH_RESPONSES.length);
+					var responseText = NOLUNCH_RESPONSES[randResponse].replace("$day", intent.slots.Date.value);
 					var searchDay = d.toString('yyyy-MM-dd');
+
 					console.log("WhatsForLunchIntent: lookup date =" + searchDay);
 					var longDay = d.toString("dddd, MMMM dS");
 					
@@ -68,6 +63,43 @@ EchoNativity.prototype.intentHandlers = {
 				} catch (e) {
 					console.log("WhatsForLunchIntent: " + e.message);
 					responseText = "I received an error while trying to look up the lunch";
+				}
+				// Show the card
+				response.tellWithCard(responseText, "Nativity Lunch Menu", responseText)
+				//response.tell(responseText);
+            }
+            else { 
+                response.tell(error.message);
+            }
+        });
+    },
+	
+	// register custom intent handlers
+    HowMuchDoesLunchCostIntent: function (intent, session, response) {
+        console.log("HowMuchDoesLunchCostIntent received");
+		
+		// get today's date
+		var today = new Date();
+		//today.setTime(today.getTime() + today.getTimezoneOffset()-300);
+		var month = today.getMonth()+1;
+		var year = today.getFullYear();
+				
+		// set path to date file
+		options.path = '/data/lunch/' + year + '/' + month + '.json';
+		
+		// make request
+		httpreq(options, function (error, responseJson) {
+            if (!error) {
+				var responseText = "I'm not sure what lunch costs."
+                try {
+					responseJson = JSON.parse(responseJson);
+					if (responseJson.lunchCost) {
+						responseText = "Lunch cost is " + responseJson.lunchCost + ".";
+						console.log("HowMuchDoesLunchCostIntent: lunch=" + responseText);
+					}
+				} catch (e) {
+					console.log("HowMuchDoesLunchCostIntent: " + e.message);
+					responseText = "I received an error while trying to look up the lunch cost.";
 				}
 				response.tell(responseText);
             }
