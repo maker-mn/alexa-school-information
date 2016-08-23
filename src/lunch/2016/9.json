@@ -1,0 +1,116 @@
+{
+    "title": "April Lunch Menu",
+    "lunchCost": "PreK-5 = $2.65, Grades 6-8 = $2.75, Extra entree = $0.75, Milk is $0.40, Adult = $3.50",
+    "lunches": [
+      {
+        "date": "2016-09-01",
+        "lunch": "Chicken Parmesan, Sandwich, Chex Mix, Veggie & Fruit",
+		"comment": "Don’t let what you can’t do stop you from doing what you can do."
+      },
+      {
+        "date": "2016-09-02",
+        "lunch": "It's labor day weekend.  No School!",
+		"comment": ""
+      },
+      {
+        "date": "2016-09-05",
+        "lunch": "It's labor day weekend.  No School!",
+		"comment": ""
+      },
+      {
+        "date": "2016-09-06",
+        "lunch": "French Toast Sticks, Sausage Links, Juice,Veggies & Dip",
+		"comment": "The more you give away the more happy you become."
+      },
+      {
+        "date": "2016-09-07",
+        "lunch": "Pasta with Meat Sauce, Breadstick, Salad, Fruit",
+		"comment": "Hey, meatsauce, you should really take hot lunch."
+      },
+      {
+        "date": "2016-09-08",
+        "lunch": "Turkey Sub, Lettuce Cup, Sun Chips Fruit",
+		"comment": "What the heck is a lettuce cup?"
+      },
+      {
+        "date": "2016-09-09",
+        "lunch": "Cheese Pizza, Animal Crackers, Fruit, Veggies & Dip",
+		"comment": "I think I can. I know I can."
+      },
+      {
+        "date": "2016-09-12",
+        "lunch": "Sloppy Joes, Baked Chips, Veggie & Fruit",
+		"comment": "It’s not what happens to you, but how you react to it that matters."
+      },
+      {
+        "date": "2016-09-13",
+        "lunch": "Meatball Sub, Baked Chips, Veggie & Fruit",
+		"comment": "No one is perfect – that’s why pencils have erasers."
+      },
+      {
+        "date": "2016-09-14",
+        "lunch": "Chicken Noodle Soup & Crackers, Turkey Sandwich, and Fruit",
+		"comment": "You are braver than you believe, stronger than you seem and smarter than you think."
+      },
+      {
+        "date": "2016-09-15",
+        "lunch": "Corn Dog, Baked Beans, Veggies & Dip, Fruit",
+		"comment": "Beans Beans, the musical fruit, the more you eat the more you toot, the more you toot, the better you feel, so lets have beans for every meal."
+      },
+      {
+        "date": "2016-09-16",
+        "lunch": "Early release that day, you'll have to make your own lunch",
+		"comment": "The more that you read, the more things you will know. The more that you learn, the more places you’ll go."
+      },
+      {
+        "date": "2016-09-19",
+        "lunch": "Chicken Patty on a bun, Pretzels, Veggie and Fruit",
+		"comment": "Be yourself. Everyone else is already taken."
+      },
+      {
+        "date": "2016-09-20",
+        "lunch": "Pancakes, Sausage Links, Juice, Veggies & Dip",
+		"comment": "Try not. Do or do not, there is no try."
+      },
+      {
+        "date": "2016-09-21",
+        "lunch": "Beef Nachos with Meat & Cheese, Lettuce Cup, Spanish Rice, Fruit",
+		"comment": "Seriously, I still do not know what a lettuce cup is."
+      },
+      {
+        "date": "2016-09-22",
+        "lunch": "Hot dog on a bun, Pretzels, Veggie & Fruit",
+		"comment": "You become what you believe."
+      },
+      {
+        "date": "2016-09-23",
+        "lunch": "Bagels with Cream Cheese and Jelly, Cheese Stick, Veggies & Dip, Orange Juice",
+		"comment": "Attitude is a little thing that makes a Big difference."
+      },
+      {
+        "date": "2016-09-26",
+        "lunch": "Hamburger on a bun, French Fries, Veggie & Fruit",
+		"comment": "If you can dream it, you can do it."
+      },
+      {
+        "date": "2016-09-27",
+        "lunch": "Chili, Ceasar Salad, Cornbread, Fruit",
+		"comment": "Anyone who has never made a mistake has never tried anything new."
+      },
+      {
+        "date": "2016-09-28",
+        "lunch": "Lasagna with Meat Sauce, Breadstick, Salad Fruit",
+		"comment": "Hey meatsauce."
+      },
+      {
+        "date": "2016-09-29",
+        "lunch": "Sweet & Sour Chicken with Rice, Veggie & Fruit",
+		"comment": "People will love you.  People will hate you.  And none of it will have anything to do with you."
+      },
+      {
+        "date": "2016-09-30",
+        "lunch": "Cheese Bread with Marinara Sauce, Salad, Fruit",
+		"comment": "Take a second to think about how blessed you are."
+      }
+    ]
+}
