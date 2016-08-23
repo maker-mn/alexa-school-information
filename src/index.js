@@ -29,10 +29,13 @@ EchoNativity.prototype.intentHandlers = {
 		
 		// get today's date
 		var today = new Date();
-		//today.setTime(today.getTime() + today.getTimezoneOffset()-300);
-		var month = today.getMonth()+1;
-		var year = today.getFullYear();
-				
+
+		// parse the requested lunch date
+		var d = getDateFromIntent(intent);
+		console.log("WhatsForLunchIntent: lookup date =" + d + ", today=" + today);		
+		var month = d.getMonth()+1;
+		var year = d.getFullYear();
+		
 		// set path to date file
 		options.path = '/data/lunch/' + year + '/' + month + '.json';
 		
@@ -42,10 +45,6 @@ EchoNativity.prototype.intentHandlers = {
 				try {
 					responseJson = JSON.parse(responseJson);
 
-					// parse the requested lunch date
-					var d = getDateFromIntent(intent);
-					console.log("WhatsForLunchIntent: lookup date =" + d + ", today=" + today);
-						
 					// set default response mesage	
 					var randResponse = Math.floor(Math.random() * NOLUNCH_RESPONSES.length);
 					var responseText = NOLUNCH_RESPONSES[randResponse].replace("$day", intent.slots.Date.value);
@@ -80,9 +79,12 @@ EchoNativity.prototype.intentHandlers = {
 		
 		// get today's date
 		var today = new Date();
-		//today.setTime(today.getTime() + today.getTimezoneOffset()-300);
-		var month = today.getMonth()+1;
-		var year = today.getFullYear();
+		
+		// parse the requested lunch date
+		var d = getDateFromIntent(intent);
+		console.log("WhatsForLunchIntent: lookup date =" + d + ", today=" + today);		
+		var month = d.getMonth()+1;
+		var year = d.getFullYear();
 				
 		// set path to date file
 		options.path = '/data/lunch/' + year + '/' + month + '.json';
