@@ -36,6 +36,10 @@ EchoNativity.prototype.intentHandlers = {
 		var month = d.getMonth()+1;
 		var year = d.getFullYear();
 		
+		var searchDay = d.toString('yyyy-MM-dd');
+		console.log("WhatsForLunchIntent: lookup date =" + searchDay);
+		var longDay = d.toString("dddd, MMMM dS");
+		
 		// set path to date file
 		options.path = '/data/lunch/' + year + '/' + month + '.json';
 		
@@ -43,15 +47,11 @@ EchoNativity.prototype.intentHandlers = {
 		httpreq(options, function (error, responseJson) {
             if (!error) {
 				try {
-					responseJson = JSON.parse(responseJson);
-
+					responseJson = JSON.parse(responseJson.toString().trim());
+                    console.log("WhatsForLunchIntent: after JSON.parse");
 					// set default response mesage	
 					var randResponse = Math.floor(Math.random() * NOLUNCH_RESPONSES.length);
 					var responseText = NOLUNCH_RESPONSES[randResponse].replace("$day", intent.slots.Date.value);
-					var searchDay = d.toString('yyyy-MM-dd');
-
-					console.log("WhatsForLunchIntent: lookup date =" + searchDay);
-					var longDay = d.toString("dddd, MMMM dS");
 					
 					console.log("WhatsForLunchIntent: lunches found =" + responseJson.lunches.length);				
 					var lunchObj = getLunchByDate(responseJson.lunches, searchDay);

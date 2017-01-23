@@ -1,0 +1,89 @@
+﻿{
+    "title": "February Lunch Menu",
+    "lunchCost": "PreK-5 = $2.75, Grades 6-8 = $2.85, Extra entree = $0.75, Milk is $0.40, Adult = $3.50",
+    "lunches": [
+      {
+         "date":"2017-02-01",
+         "lunch":"Chicken Nuggets, Pretzels, Veggie & Fruit",
+		 "comment":"Happy New Year!"
+      }
+,
+      {
+         "date":"2017-02-02",
+         "lunch":"Chicken Wild Rice, Soup, Turkey Sandwich, Fruit",
+		 "comment":"Guess who's birthday is tomorrow."
+      }
+,
+      {
+         "date":"2017-02-03",
+         "lunch":"BBQ meatballs, Mashed Potatoes and Gravy, Dinner Roll, Veggie & Fruit",
+		 "comment":"Guess who's birthday is today."
+      }
+,
+      {
+         "date":"2017-02-06",
+         "lunch":"Bagels with Cream, Cheese and Jelly, Cheese Stick, Veggies and Dip, Juice",
+		 "comment":"Guess who's birthday was yesterday."
+      },
+      {
+         "date":"2017-02-07",
+         "lunch":"Cheese Pizza, Animal Crackers, Veggies & Dip",
+		 "comment":"Today is Friday the 13th, are you scared?  Well, you should be!"
+      },
+      {
+         "date":"2017-02-08",
+         "lunch":"Chicken Chow Mein,Rice,Oranges,Fortune Cookie",
+		 "comment":""
+      },
+      {
+         "date":"2017-02-09",
+         "lunch":"Chili, Cesar Salad, Cornbread, Fruit",
+		 "comment":""
+      },
+      {
+         "date":"2017-01-19",
+         "lunch":"Hamburger on a bun, French Fries, Veggie & Fruit",
+		 "comment":""
+      },
+      {
+         "date":"2017-01-20",
+         "lunch":"Cheese Bread with Marinara Sauce, Salad, Fruit",
+		 "comment":""
+      },
+      {
+         "date":"2017-01-23",
+         "lunch":"Chicken Tenders, Mashed Potatoes and gravy,Cornbread, Veggie & Fruit",
+		 "comment":"Remember, it is catholic school's week. This week's kunch are top picks"
+      },
+      {
+         "date":"2017-01-24",
+         "lunch":"Sausage & Cheese Egg Bake,Roll,Veggies & Dip,Juice",
+		 "comment":"Breakfast for lunch!"
+      },
+      {
+         "date":"2017-01-25",
+         "lunch":"Walking Tacos, Lettuce Cup, Black beans/Corn, Fruit",
+		 "comment":"This is the student favorite"
+      },
+      {
+         "date":"2017-01-26",
+         "lunch":"Bagels with Cream Cheese and Jelly, Cheese Stick, Veggies & Dip, Juice",
+		 "comment":""
+      },
+      {
+         "date":"2017-01-27",
+         "lunch":"Cheese Filled Bread Sticks with Marinara Sauce, Salad, Fruit",
+		 "comment":""
+      },
+      {
+         "date":"2017-01-30",
+         "lunch":"Chicken Parmesan Sandwich, Baked Chips, Veggie & Fruit",
+		 "comment":""
+      },
+      {
+         "date":"2017-01-31",
+         "lunch":"French Toast Sticks, Sausage Links, Juice, Veggies & Dip",
+		 "comment":""
+      }
+    ]
+}

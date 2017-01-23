@@ -1,0 +1,26 @@
+﻿{
+    "title": "November Lunch Menu",
+    "lunchCost": "PreK-5 = $2.75, Grades 6-8 = $2.85, Extra entree = $0.75, Milk is $0.40, Adult = $3.50",
+    "lunches": [
+      {
+         "date":"2016-11-01",
+         "lunch":"Turkey Sub, Lettuce Cup, Sun Chips, Fruit",
+         "comment":"Tuesday...huh."
+      },
+      {
+         "date":"2016-11-02",
+         "lunch":"Pasta with Meat Sauce, Breadstick, Salad, Fruit",
+		 "comment":"Hey meatsauce."
+      },
+      {
+         "date":"2016-11-03",
+         "lunch":"Sweet and Sour, Chicken Rice, Veggie & Fruit",
+		 "comment":"You been hewat faux hower...you go home now."
+      },
+      {
+         "date":"2016-11-04",
+         "lunch":"Bagels with Cream Cheese and Jelly, Cheese Stick, Veggies & Dip, Juice",
+         "comment":"The more you give away the more happy you become."
+      }
+    ]
+}

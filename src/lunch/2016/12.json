@@ -1,0 +1,53 @@
+﻿{
+    "title": "December Lunch Menu",
+    "lunchCost": "PreK-5 = $2.75, Grades 6-8 = $2.85, Extra entree = $0.75, Milk is $0.40, Adult = $3.50",
+    "lunches": [
+      {
+         "date":"2016-12-08",
+         "lunch":"Turkey Sub, Lettuce Cup, Sun Chips, Fruit",
+		 "comment":""
+      }
+,
+      {
+         "date":"2016-12-09",
+         "lunch":"Bagels with Cream, Cheese and Jelly, Cheese Stick, Veggies and Dip, Juice",
+		 "comment":""
+      }
+,
+      {
+         "date":"2016-12-12",
+         "lunch":"Chicken Patty on a bun, Pretzels, Veggie & Fruit",
+		 "comment":""
+      }
+,
+      {
+         "date":"2016-12-13",
+         "lunch":"French Toast, Sticks, Sausage Links, Juice, Veggies & Dip",
+		 "comment":""
+      }
+,
+      {
+         "date":"2016-12-14",
+         "lunch":"Walking Tacos, Lettuce Cup, Black beans/Corn, Fruit",
+		 "comment":""
+      }
+,
+      {
+         "date":"2016-12-15",
+         "lunch":"Meatball Sub, Baked Chips, Veggie & Fruit",
+		 "comment":""
+      }
+,
+      {
+         "date":"2016-12-16",
+         "lunch":"Men’s Club Wreath Sales, Davanni’s Pizza Party",
+		 "comment":"Pizza!"
+      }
+,
+      {
+         "date":"2016-12-19",
+         "lunch":"Corn Dog, Baked Beans, Veggies & Dip, Fruit",
+		 "comment":"Christmas is 6 days away!"
+      }
+    ]
+}

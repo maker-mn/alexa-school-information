@@ -1,0 +1,111 @@
+﻿{
+    "title": "October Lunch Menu",
+    "lunchCost": "PreK-5 = $2.75, Grades 6-8 = $2.85, Extra entree = $0.75, Milk is $0.40, Adult = $3.50",
+    "lunches": [
+      {
+         "date":"2016-10-03",
+         "lunch":"Sloppy Joes, Baked Chips, Veggie & Fruit",
+         "comment":"Don't let what you cant do stop you from doing what you can do."
+      },
+      {
+         "date":"2016-10-04",
+         "lunch":"French Toast Sticks, Sausage Links, Juice, Veggies & Dip",
+		 "comment":"Don't let what you cant do stop you from doing what you can do."
+      },
+      {
+         "date":"2016-10-05",
+         "lunch":"Walking Tacos, Lettuce Cup, Black Beans/Corn, Fruit",
+		 "comment":"Make sure to tell Grandpa happy birthday."
+      },
+      {
+         "date":"2016-10-06",
+         "lunch":"Chicken Parmesan Sandwich, Chex Mix, Veggie & Fruit",
+         "comment":"The more you give away the more happy you become."
+      },
+      {
+         "date":"2016-10-07",
+         "lunch":"Cheese Pizza, Animal Crackers, Fruit, Veggie & Dip",
+         "comment":"Hey, cheeseball, you should really take hot lunch."
+      },
+      {
+         "date":"2016-10-10",
+         "lunch":"Chicken Nuggets, Pretzels, Veggie & Fruit",
+         "comment":"Hello, its me, I was wondering if you should take hot lunch today."
+      },
+      {
+         "date":"2016-10-11",
+         "lunch":"Cream of Chicken Wild Rice Soup, Turkey Sandwich, Fruit",
+         "comment":"I think I can. I know I can."
+      },
+      {
+         "date":"2016-10-12",
+         "lunch":"Corn Dog, Baked Beans, Veggies and Dip, Fruit",
+         "comment":"Its not what happens to you, but how you react to it that matters."
+      },
+      {
+         "date":"2016-10-13",
+         "lunch":"Meatball Sub, Baked Chips, Veggie and Fruit",
+         "comment":"No one is perfect. thats why pencils have erasers."
+      },
+      {
+         "date":"2016-10-14",
+         "lunch":"Cheese Tortellini with sauce",
+         "comment":"You are braver than you believe, stronger than you seem and smarter than you think."
+      },
+      {
+         "date":"2016-10-17",
+         "lunch":"Chicken Patty on a bun, Pretzels, Veggie and Fruit",
+         "comment":"When is that dang garage going to be done, the backyard is such a mess."
+      },
+      {
+         "date":"2016-10-18",
+         "lunch":"Meatball Sub, Baked Chips, Veggie & Fruit",
+         "comment":"The more that you read, the more things you will know. The more that you learn, the more places youll go."
+      },
+      {
+         "date":"2016-10-19",
+         "lunch":"Chicken Chow Mein, Rice, Oranges, Fortune Cookie",
+         "comment":"Be yourself. Everyone else is already taken."
+      },
+      {
+         "date":"2016-10-20",
+         "lunch":"Make your own lunch today, dude, cause there is no school.",
+         "comment":""
+      },
+      {
+         "date":"2016-10-21",
+         "lunch":"Make your own lunch today, sucker, cause there is no school.",
+         "comment":""
+      },
+      {
+         "date":"2016-10-24",
+         "lunch":"Did you reach your marathon goal?  If you did then no school.  If not you will have Hot Dog on a bun, Pretzels, Veggie & Fruit",
+         "comment":"You become what you believe."
+      },
+      {
+         "date":"2016-10-25",
+         "lunch":"Chili, Ceasar Salad, Cornbread, Fruit",
+         "comment":"Attitude is a little thing that makes a Big difference."
+      },
+      {
+         "date":"2016-10-26",
+         "lunch":"Nachos with Beef and Cheese Sauce, Lettuce Cup, Spanish Rice, Fruit",
+         "comment":"If you can dream it, you can do it."
+      },
+      {
+         "date":"2016-10-27",
+         "lunch":"Pancakes, Sausage Links, Juice, Veggies & Dip",
+         "comment":"Anyone who has never made a mistake has never tried anything new."
+      },
+      {
+         "date":"2016-10-28",
+         "lunch":"Cheese Bread with Marinara Sauce, Salad, Fruit",
+         "comment":"Maaaarrrriiiiinnnnaaaaarrrraaa!"
+      },
+      {
+         "date":"2016-10-31",
+         "lunch":"Hamburger on a bun, French Fries, Veggie & Fruit",
+         "comment":"People will love you.  People will hate you.  And none of it will have anything to do with you."
+      }
+    ]
+}

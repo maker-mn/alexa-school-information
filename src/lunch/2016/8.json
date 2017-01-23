@@ -1,16 +1,16 @@
-{
+﻿{
     "title": "August Lunch Menu",
     "lunchCost": "PreK-5 = $2.75, Grades 6-8 = $2.85, Extra entree = $0.75, Milk is $0.40, Adult = $3.50",
     "lunches": [
       {
         "date": "2016-08-29",
         "lunch": "Chicken Nuggets, Pretzels, Veggie & Fruit",
-		"comment": "Have a great first day at school.  Don't forget to get your picture taken in the front yard."
+		"comment": "Have a great first day at school.  Dont forget to get your picture taken in the front yard."
       },
       {
         "date": "2016-08-30",
         "lunch": "BBQ meatballs, Mashed Potatoes, Dinner Roll, Veggie & Fruit",
-		"comment": "You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose. You’re on your own. And you know what you know. And YOU are the one who’ll decide where to go."
+		"comment": "You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose. Youre on your own. And you know what you know. And YOU are the one wholl decide where to go."
       },
       {
         "date": "2016-08-31",
